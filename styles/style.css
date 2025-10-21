@@ -8,7 +8,36 @@ html {
   block-size: 100%;
 }
 
+.search-form{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__details{
+  display: grid;
+  gap: 26px;
+}
+
+.content__list-container{
+  height: 534px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.content{
+  display: grid;
+  grid-area: auto;
+  place-items: center;
+  grid-template-columns: 711px 400px;
+  gap: 30px;
+  align-items: center;
+}
+
 .page {
+  display: grid;
+  place-items: center center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
